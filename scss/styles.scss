@@ -1,0 +1,70 @@
+.navbar {
+    transition: all 0.5s ease-in-out;
+  }
+  
+.navbar-sticky {
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--bs-dark);
+    a{
+        color: var(--bs-secondary);
+    }
+    a:focus{
+        color: var(--bs-light) !important;
+    }
+    .li-logo{
+        color: var(--bs-secondary);
+    }
+    .btn:hover{
+        background-color: var(--bs-secondary);
+        color: var(--bs-primary);
+    }
+}
+
+.xl-text{
+    font-size: 65px;
+}
+.li-logo{
+    color: var(--bs-primary);
+}
+.nav-item a:hover{
+    color: var(--bs-light);
+}
+
+.form-control::placeholder {
+    color: var(--bs-primary) !important;
+    opacity: 1 !important;
+}
+
+textarea{
+    resize: none !important;
+}
+
+a:focus{
+    color: white !important;
+}
+
+@media (max-width: 1000px){
+    .navbar {
+        background: var(--bs-dark);
+    }
+    .li-logo{
+        color: var(--bs-secondary);
+    }
+    .nav-item a{
+        color: var(--bs-secondary);
+    }
+    .nav-item .btn:hover {
+        background-color: var(--bs-secondary);
+        color: var(--bs-primary);
+    }
+    a:focus{
+        color: var(--bs-light) !important;
+    }
+    .navbar .navbar-toggler-icon{
+        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 177, 185,.75)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar .navbar-toggler{
+        border-color: var(--bs-light);
+    }
+}

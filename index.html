@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <title>Lixian Ng: Content Writer</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><span class="xl-text li-logo">黄</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                href="index.html"
+                class="nav-link btn btn-outline-dark fw-semibold px-4 mx-4"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#work"
+                class="nav-link btn btn-outline-dark fw-semibold px-4 mx-4"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link btn btn-outline-dark fw-semibold px-4 mx-4"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
+                class="nav-link btn btn-outline-dark fw-semibold px-4 mx-4"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="row mt-6">
+          <div class="col-md-6">
+            <div class="text-container p-4 text-primary">
+              <h1 class="display-4 fw-bold">Hi, my name is Lixian Ng</h1>
+              <h4>I am a Content Writer</h4>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="text-container p-4 text-primary">
+              <p class="lead">
+                I write content in the gaming, literary, mental health, and
+                non-profit spaces. When I'm not writing, I'm a volunteer crisis
+                responder at THRIVE LifeLine
+              </p>
+              <p class="lead">
+                I love content that humanizes websites and finds solutions. I
+                believe that I can make your web presence authoritative and
+                relatable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Seo Content -->
+    <div class="section work my-6 text-primary" id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center fw-bold">SEO Content</h2>
+            <hr class="w-25 mx-auto mb-5">
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-md-6 text-center">
+            <h3 class="fw-semibold d-flex flex-column py-4">
+              Healthcare
+            </h3>
+            <a href="#" class="btn btn-primary text-secondary">View</a>
+            <h3 class="fw-semibold py-4 gap-4">eCommerce</h3>
+            <a href="#" class="btn btn-primary text-secondary">View</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <h3 class="fw-semibold py-4 d-flex flex-column">
+              WebPages
+            </h3>
+            <a href="#" class="btn btn-primary text-secondary">View</a>
+            <h3 class="fw-semibold py-4 d-flex flex-column">
+              Automotive
+            </h3>
+            <a href="#" class="btn btn-primary text-secondary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Previously Published -->
+    <div class="section published my-6 text-primary" id="published">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold">Previously Published</h2>
+            <hr class="w-25 mx-auto mb-6">
+            <div class=" py-3">
+              <h4 class="fw-semibold">The Lit Pub</h4>
+
+              <p class="lead">(Under Li-Xian Wu)</p>
+            </div>
+            <div class="py-3">
+              <h4 class="fw-semibold"">The Heavy Feather Review</h4>
+            </div>
+            <div class="py-3">
+              <h4 class="fw-semibold">Level Editors</h4>
+              <p class="lead">(Under Wei Yuan Lee)</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <!-- Contact Me -->
+    <section class="contact text-primary py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-5">
+              <h3 class="fw-bold text-primary">Contact Me</h3>
+              <hr class="w-25 mx-auto">
+              <p>If you have any inquiries or would to work together, please contact me with the form below.</p>
+            </div>
+
+            <!-- Form -->
+            <form name="contact" netlify>
+              <div class="mb-5">
+                <input type="text" name="name" placeholder="Name" class="form-control border-dark border-muted text-primary">
+              </div>
+              <div class="mb-5">
+                <input type="email" name="email" placeholder="Email Address" class="form-control border-dark border-muted text-primary">
+              </div>
+              <div class="mb-5">
+                <textarea class="form-control border-dark text-primary" name="message" placeholder="Message" rows="10" cols="40"></textarea>
+              </div>
+              <div class="mb-5 d-grid">
+                <button type="submit" class="btn btn-primary text-light">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Footer -->
+        <footer class=" py-4 mt-4 border-top bg-dark border-primary text-secondary">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-8 my-3">
+                  Copyright &copy; Design by Lixian Ng 2023
+                </div>
+                <div class="col-md-4"> 
+                  <div class="d-flex gap-2">
+                  <a href="#" class="text-decoration-none">
+                    <i class="fab fa-facebook fa-3x text-light mx-2"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none">
+                    <i class="fab fa-twitter fa-3x text-light mx-2"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none">
+                    <i class="fab fa-instagram fa-3x text-light mx-2"></i>
+                  </a>
+                  <a href="#" class="text-decoration-none">
+                    <i class="fab fa-pinterest fa-3x text-light mx-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
